@@ -1,3 +1,6 @@
+// Kyler Rynear
+// 1/25/20
+// The purpose of this program is to calculate inventory for a wine cellar
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
