@@ -13,6 +13,7 @@ const char MULTIPLICATION = '*';
 
 using namespace std;
 
+//function is called main to generate a random number
 void getRandNum(int *rnd)
 {
     // generate a number between 1 and 9
@@ -75,6 +76,9 @@ bool isAnswerRight(int numberOne, int numberTwo, int userAnswer, char symbol)
     return 0;
 }
 
+// function handles the add task by taking in the random numbers, prompting
+// the user for their answer, then checking the answer using the isAnswerRight
+// function. If wrong, will loop until right answer is given
 void add(int numberOne, int numberTwo)
 {
     int userAnswer;
@@ -100,6 +104,9 @@ void add(int numberOne, int numberTwo)
     return;
 }
 
+// function handles the subtract task by taking in the random numbers, prompting
+// the user for their answer, then checking the answer using the isAnswerRight
+// function. If wrong, will loop until right answer is given
 void subtract(int numberOne, int numberTwo)
 {
     int userAnswer;
@@ -125,6 +132,9 @@ void subtract(int numberOne, int numberTwo)
     return;
 }
 
+// function handles the multiply task by taking in the random numbers, prompting
+// the user for their answer, then checking the answer using the isAnswerRight
+// function. If wrong, will loop until right answer is given
 void multiply(int numberOne, int numberTwo)
 {
     int userAnswer;
